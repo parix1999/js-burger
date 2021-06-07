@@ -21,5 +21,7 @@ onClick.addEventListener('click', function(){
     }
     outPutBoxes.innerHTML = '€' + som;
 
-
 });
+
+// Sconto: 
+
