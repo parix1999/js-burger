@@ -1,3 +1,9 @@
+// Inizio programma con stampaggio a video nome utente:
+var nome =  prompt('Ciao come ti chiami?');
+
+document.getElementById('name').innerHTML =' Benvenuto scegli pure gli ingredienti ' + nome.charAt(0).toUpperCase;
+
+
 // Creo la mia variabile dove si scatenerà l'input per la somma degli elementi
 var onClick = document.getElementById('button');
 var outPutBoxes = document.getElementById('boxes-content');
