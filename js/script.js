@@ -43,9 +43,9 @@ onClick.addEventListener('click', function(){
 
     }
     if (sconto === 0 && coupon.value.length > 0) {
-        alert('no');
+        alert('Questo coupon non esiste');
     }
-    
+
     costoHamburger = costoHamburger * ((100 - sconto) / 100);
     outPutBoxes.innerHTML = '€' + costoHamburger.toFixed(2);
 
