@@ -11,7 +11,7 @@
     padding: 0; 
 }
 .title{
-    background-color: #fdbd3f;
+    
     padding:20px 0 20px 0;
     position:relative;
     height:80px;  
@@ -22,6 +22,7 @@
 }
 .content-first{
     position:relative;
+    background-color: #fdbd3f;
 
 }
 .image img{   
