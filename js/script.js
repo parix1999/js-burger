@@ -19,7 +19,7 @@ onClick.addEventListener('click', function(){
     // Comandi per iterare e tenere in conto l'input dell'utente:
     var checkboxes = document.getElementsByClassName('box');
     var costoHamburger = price;
-
+    var sconto = 0;
     for (var x = 0; x < checkboxes.length; x++) {
         // Verifica se c'è stato il check:
         if (checkboxes[x].checked === true ) {
@@ -28,20 +28,24 @@ onClick.addEventListener('click', function(){
     }
 
     var coupon = document.getElementById('coupon');
+
     for (var i = 0; i < lista20.length; i++) {
         if (lista20[i] === coupon.value) {
-            var sconto = 20;
+            sconto = 20;
            
         }
 
     }
     for (var z = 0; z < lista10.length; z++) {
         if (lista10[z === coupon.value]) {
-            var sconto = 10;
+            sconto = 10;
         }
 
     }
-
+    if (sconto === 0 && coupon.value.length > 0) {
+        alert('no');
+    }
+    
     costoHamburger = costoHamburger * ((100 - sconto) / 100);
     outPutBoxes.innerHTML = '€' + costoHamburger.toFixed(2);
 
