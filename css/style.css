@@ -4,6 +4,7 @@
 }
 .title{
     background-color: orange;
+    padding:20px 0 20px 0;
     position:relative;
 }
 .content-first{
@@ -37,4 +38,13 @@
 .personal{
     display:flex;
     flex-direction:column;
+}
+.box-img{
+    width:50px;
+    display: inline-block;
+    margin-right:20px;
+    margin-top:20px;
+}
+.box-img img{
+    width:100%;
 }
