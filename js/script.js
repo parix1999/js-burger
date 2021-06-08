@@ -37,7 +37,7 @@ onClick.addEventListener('click', function(){
 
     }
     for (var z = 0; z < lista10.length; z++) {
-        if (lista10[z === coupon.value]) {
+        if (lista10[z] === coupon.value) {
             sconto = 10;
         }
 
