@@ -1,3 +1,7 @@
+#color{
+    background-color: red;
+    height:100%;
+}
 .margineSx{
     margin-left : 0;
     padding: 0; 
@@ -6,18 +10,16 @@
     background-color: orange;
     padding:20px 0 20px 0;
     position:relative;
+   
 }
 .content-first{
     position:relative;
-    width:1000px;
-}
-.content-title{
-    width:900px;
+
 }
 .image img{   
-    width:200px;
+    width:150px;
     position: absolute;
-    top:-20px;
+    top:-10px;
     right:0;
 
 }
@@ -36,9 +38,6 @@
 .ingredienti{
     font-size:18px;
 }
-
-
-
 /* ------------------------------------------------- */
 
 /* inizio classi del main content: */
@@ -46,7 +45,7 @@
     margin-top:20px;
 }
 .spazio-sotto{
-    margin-bottom:200px;
+    margin-bottom:50px;
 }
 .personal{
     display:flex;
@@ -61,3 +60,27 @@
 .box-img img{
     width:100%;
 }
+/* Classi discount-coupon */
+#coupon{
+    width:60%;
+    margin-left:20px;
+    border:none;
+    border-radius:10px;
+    background: #fef5e3;;
+    padding:5px;
+}
+#button{
+    margin:0 auto;
+    margin-top:30px;
+    border-radius:20px;
+    border: 1px solid orange;
+    background-color:orange;
+    font-size:18px;
+    padding:15px;
+    font-weight:bold;
+}
+.centratura{
+    text-align: center;;
+}
+
+/* ---------------------------- */
