@@ -2,15 +2,23 @@
     background-color: red;
     height:100%;
 }
+.perso{
+    padding:0;
+    margin:0;
+}
 .margineSx{
     margin-left : 0;
     padding: 0; 
 }
 .title{
-    background-color: orange;
+    background-color: #fdbd3f;
     padding:20px 0 20px 0;
     position:relative;
-   
+    height:80px;  
+}
+.title>h1{
+    font-size: 30px;
+    font-weight: bold;;
 }
 .content-first{
     position:relative;
@@ -30,7 +38,7 @@
 
 /* classi intermedie tra header e main */
 #name{
-    margin-top:50px;
+    margin-top:30px;
     margin-bottom: 30px;;
     font-size:23px;
     font-weight: bold;;
@@ -72,15 +80,31 @@
 #button{
     margin:0 auto;
     margin-top:30px;
-    border-radius:20px;
-    border: 1px solid orange;
-    background-color:orange;
+    border-radius:10px;
+    border: 1px solid #fdbd3f;
+    background-color:#fdbd3f;
     font-size:18px;
-    padding:15px;
+    padding:10px;
+    width:150px;
     font-weight:bold;
 }
 .centratura{
     text-align: center;;
 }
-
 /* ---------------------------- */
+/* Footer */
+.footer{
+    background-color: #d43059;
+    margin-top:50px;
+    padding: 20px 0 20px 0;
+    color:white;
+    font-size:20px;
+    font-weight: bold;
+}
+
+#boxes-content{
+    text-align: right;;
+}
+
+
+/* ------------------------------- */
