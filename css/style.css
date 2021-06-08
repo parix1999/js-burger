@@ -14,11 +14,8 @@
 .content-title{
     width:900px;
 }
-.image{
-    background-image: url('../img/burger-top.png');
-    background-repeat: no-repeat ;
-    width:250px;
-    height:250px;
+.image img{   
+    width:200px;
     position: absolute;
     top:-20px;
     right:0;
@@ -28,9 +25,25 @@
     width:200px;
 }
 /* ------------------------------------------------- */
+
+/* classi intermedie tra header e main */
+#name{
+    margin-top:50px;
+    margin-bottom: 30px;;
+    font-size:23px;
+    font-weight: bold;;
+}
+.ingredienti{
+    font-size:18px;
+}
+
+
+
+/* ------------------------------------------------- */
+
 /* inizio classi del main content: */
 .main-content{
-    margin-top:200px;
+    margin-top:20px;
 }
 .spazio-sotto{
     margin-bottom:200px;
