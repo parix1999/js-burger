@@ -69,6 +69,13 @@
 .box-img img{
     width:100%;
 }
+.box{
+    margin-left:5px;
+}
+.aggiungi{
+    color:#fb5f7e;
+    margin-left:5px;
+}
 /* Classi discount-coupon */
 #coupon{
     width:60%;
