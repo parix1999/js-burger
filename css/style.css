@@ -1,0 +1,40 @@
+.margineSx{
+    margin-left : 0;
+    padding: 0; 
+}
+.title{
+    background-color: orange;
+    position:relative;
+}
+.content-first{
+    position:relative;
+    width:1000px;
+}
+.content-title{
+    width:900px;
+}
+.image{
+    background-image: url('../img/burger-top.png');
+    background-repeat: no-repeat ;
+    width:250px;
+    height:250px;
+    position: absolute;
+    top:-20px;
+    right:0;
+
+}
+.box-hamburger img{
+    width:200px;
+}
+/* ------------------------------------------------- */
+/* inizio classi del main content: */
+.main-content{
+    margin-top:200px;
+}
+.spazio-sotto{
+    margin-bottom:200px;
+}
+.personal{
+    display:flex;
+    flex-direction:column;
+}
